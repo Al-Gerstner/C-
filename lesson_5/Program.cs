@@ -42,9 +42,8 @@ int Index(int[] array)
     for (int i = 0; i < array.Length; i++)
     {
         if (array [i] % 2 != 0)
-            Index += i;
+            Index += array [i];
     }
-// не соображу как исправить чтоб считало сумму элементов
     return Index;
 }
 Console.Write("Введите кол-во элементов массива: ");
