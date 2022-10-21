@@ -9,10 +9,10 @@ void InputMatrix(double[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = new Random().Next(-9, 10);;
+            matrix[i, j] = new Random().Next(-9, 10); ;
             Console.Write(matrix[i, j] + " \t");
         }
-    Console.WriteLine();
+        Console.WriteLine();
     }
 }
 
@@ -37,10 +37,10 @@ void InputMatrix(int[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = new Random().Next(-9, 10);;
+            matrix[i, j] = new Random().Next(-9, 10); ;
             Console.Write(matrix[i, j] + " \t");
         }
-    Console.WriteLine();
+        Console.WriteLine();
     }
 }
 
@@ -84,10 +84,10 @@ void InputMatrix(int[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = new Random().Next(-9, 10);;
+            matrix[i, j] = new Random().Next(-9, 10); ;
             Console.Write(matrix[i, j] + " \t");
         }
-    Console.WriteLine();
+        Console.WriteLine();
     }
 }
 
@@ -103,7 +103,7 @@ void XMatrix(int[,] matrix)
             sumColumns += matrix[i, j];
         }
         XColumns = sumColumns / matrix.GetLength(0);
-        Console.WriteLine("Среднеарифметическое = " +XColumns);
+        Console.WriteLine("Среднеарифметическое = " + XColumns);
         sumColumns = 0;
     }
 }
