@@ -18,8 +18,8 @@ else
 int SumCountFromMToN(int n, int m)
 {
     if (n == m) return 0;
-    int sum = ((n + m)*(n - m + 1) / 2) - (m + n);
-    return sum;
+    int sum = SumCountFromMToN(n - 1, m);
+    return sum += n;
 }
 */
 
